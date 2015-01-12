@@ -55,6 +55,8 @@
           <div class="highlight"><pre><span id="geojson"></span></pre>
           </div>
 
+          <h4>Hit ShpWorld's RESTful endpoint if web interfaces aren't your style:</h4>
+          <code>curl -is -F shp=@newcounts.shp -F dbf=@newcounts.dbf -F prj=@newcounts.prj -F shx=@newcounts.shx localhost:8080/shptogeo.json</code>
         </div>
       </div>
 
